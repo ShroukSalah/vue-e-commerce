@@ -1,6 +1,6 @@
 <template>
   <div class="tw-container tw-mx-auto">
-    <router-link to="/">
+    <router-link to="/login">
       login
     </router-link>
     <div class="tw-grid tw-grid-cols-4  tw-gap-4">

@@ -3,21 +3,21 @@ import LoginPage from "@/views/login.vue";
 import HomePage from "@/views/Home.vue";
 
 const routes = [
-  {
-    path: "/",
-    name: "LoginPage",
-    component: LoginPage,
-  },
-  {
-    path: "/home",
-    name: "HomePage",
-    component: HomePage,
-  },
+    {
+        path: "/",
+        name: "HomePage",
+        component: HomePage,
+    }, {
+        path: "/login",
+        name: "LoginPage",
+        component: LoginPage,
+    },
+
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
-  routes,
+    history: createWebHistory(),
+    routes,
 });
 
 export default router;
