@@ -1,16 +1,96 @@
 <template>
-  <div>
-    HomePage
+  <div class="tw-container tw-mx-auto">
     <router-link to="/">
       login
     </router-link>
-    <q-card class="my-card">
-      <q-card-section class=" tw-bg-green-50">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        cons
-      </q-card-section>
-    </q-card>
+    <div class="tw-grid tw-grid-cols-4  tw-gap-4">
+      <div>
+        <q-card class="my-card">
+          <img src="https://cdn.quasar.dev/img/mountains.jpg">
+
+          <q-card-section>
+            <div class="text-h6">Our Changing Planet</div>
+            <div class="text-subtitle2">by John Doe</div>
+          </q-card-section>
+
+          <q-card-section class="q-pt-none">
+            {{ lorem }}
+          </q-card-section>
+        </q-card>
+      </div>
+
+      <div>
+        <q-card class="my-card">
+          <img src="https://cdn.quasar.dev/img/mountains.jpg">
+
+          <q-card-section>
+            <div class="text-h6">Our Changing Planet</div>
+            <div class="text-subtitle2">by John Doe</div>
+          </q-card-section>
+
+          <q-card-section class="q-pt-none">
+            {{ lorem }}
+          </q-card-section>
+        </q-card>
+      </div>
+      
+      <div>
+        <q-card class="my-card">
+          <img src="https://cdn.quasar.dev/img/mountains.jpg">
+
+          <q-card-section>
+            <div class="text-h6">Our Changing Planet</div>
+            <div class="text-subtitle2">by John Doe</div>
+          </q-card-section>
+
+          <q-card-section class="q-pt-none">
+            {{ lorem }}
+          </q-card-section>
+        </q-card>
+      </div>
+      <div>
+        <q-card class="my-card">
+          <img src="https://cdn.quasar.dev/img/mountains.jpg">
+
+          <q-card-section>
+            <div class="text-h6">Our Changing Planet</div>
+            <div class="text-subtitle2">by John Doe</div>
+          </q-card-section>
+
+          <q-card-section class="q-pt-none">
+            {{ lorem }}
+          </q-card-section>
+        </q-card>
+      </div>
+      <div>
+        <q-card class="my-card">
+          <img src="https://cdn.quasar.dev/img/mountains.jpg">
+
+          <q-card-section>
+            <div class="text-h6">Our Changing Planet</div>
+            <div class="text-subtitle2">by John Doe</div>
+          </q-card-section>
+
+          <q-card-section class="q-pt-none">
+            {{ lorem }}
+          </q-card-section>
+        </q-card>
+      </div>
+      <div>
+        <q-card class="my-card">
+          <img src="https://cdn.quasar.dev/img/mountains.jpg">
+
+          <q-card-section>
+            <div class="text-h6">Our Changing Planet</div>
+            <div class="text-subtitle2">by John Doe</div>
+          </q-card-section>
+
+          <q-card-section class="q-pt-none">
+            {{ lorem }}
+          </q-card-section>
+        </q-card>
+      </div>
+    </div>
   </div>
 </template>
 <script>
