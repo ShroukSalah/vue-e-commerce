@@ -1,5 +1,5 @@
 <template>
-  <div class="tw-container tw-mx-auto">
+  <div class="tw-container tw-mx-auto tw-px-5">
     <router-link to="/login">
       login
     </router-link>
