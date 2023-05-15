@@ -10,9 +10,6 @@ import { ref } from 'vue'
 
 export default {
   name: 'LayoutDefault',
-
-
-
   setup() {
     return {
       leftDrawerOpen: ref(false)
