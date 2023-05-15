@@ -1,19 +1,11 @@
 <template>
-  <div class="q-pa-md row items-start q-gutter-md">
-   
+  <div>
+   <navbar />
     <router-view />
   </div>
 </template>
 
-<script>
-import { ref } from 'vue'
+<script setup>
+import navbar from "@/components/navbar"
 
-export default {
-  name: 'LayoutDefault',
-  setup() {
-    return {
-      leftDrawerOpen: ref(false)
-    }
-  }
-}
 </script>
