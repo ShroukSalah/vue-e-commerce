@@ -1,9 +1,7 @@
 <template>
-  <div class="tw-container tw-mx-auto tw-px-5">
-    <router-link to="/login">
-      login
-    </router-link>
-    <div class="tw-grid lg:tw-grid-cols-4  tw-gap-4">
+  <div class="tw-container tw-mx-auto tw-px-5 lg:tw-px-24">
+  
+    <div class="tw-grid lg:tw-grid-cols-4  tw-gap-4 tw-my-10">
       <productCard />
     </div>
   </div>
