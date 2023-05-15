@@ -3,7 +3,7 @@
     <router-link to="/login">
       login
     </router-link>
-    <div class="tw-grid tw-grid-cols-4  tw-gap-4">
+    <div class="tw-grid lg:tw-grid-cols-4  tw-gap-4">
       <productCard />
     </div>
   </div>
